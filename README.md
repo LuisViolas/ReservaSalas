@@ -1,1 +1,1 @@
-Projeto realizado no ambito da cadeira  de Programação Web I, que consite na reserva de salas da esmad
+Projeto realizado no ambito da cadeira  de Programação Web I, que consiste na reserva de salas da esmad
