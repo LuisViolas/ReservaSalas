@@ -1,0 +1,73 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:300);
+
+.register-page {
+  width: 360px;
+  padding-top: 30px;
+  margin: auto;
+}
+body {
+  background: url("im4.png");
+}
+.form {
+  position: relative;
+  z-index: 1;
+  background: #FFFFFF;
+  max-width: 360px;
+  margin: 0 auto 100px;
+  padding-top: 20px;
+  padding-bottom: 45px;
+  padding-left: 45px;
+  padding-right: 45px;
+  text-align: center;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+.form img {
+  padding-bottom:15px;
+}
+.form input {
+  font-family: "Roboto", sans-serif;
+  outline: 0;
+  background: #f2f2f2;
+  width: 100%;
+  border: 0;
+  margin: 0 0 15px;
+  padding: 15px;
+  box-sizing: border-box;
+  font-size: 14px;
+}
+.form button {
+  font-family: "Roboto", sans-serif;
+  text-transform: uppercase;
+  outline: 0;
+  background: rgb(69, 113, 180);
+  width: 100%;
+  border: 0;
+  padding: 15px;
+  color: #FFFFFF;
+  font-size: 14px;
+  -webkit-transition: all 0.3 ease;
+  transition: all 0.3 ease;
+  cursor: pointer;
+}
+.form select {
+  width:100%;
+  height: 75%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  background-color: white;
+  color: black;
+  font-size: 18px;
+  font-family: "Roboto", sans-serif 
+}
+.form button:hover,.form button:active,.form button:focus {
+  background:  rgb(23, 50, 90);
+}
+.form .message {
+  padding-top: 20px;
+  color: #b3b3b3;
+  font-size: 12px;
+}
+.form .message a {
+  color: rgb(69, 113, 180);
+  text-decoration: none;
+}

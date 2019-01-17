@@ -1,0 +1,152 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:300);
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+  background: rgb(23, 50, 90); }
+
+#mainNav {
+  border-color: white;
+  background-color: white;
+  -webkit-transition: all .35s;
+  -moz-transition: all .35s;
+  transition: all .35s;
+  font-family: "Roboto", sans-serif;
+  font-weight: 200;
+  letter-spacing: 1px; }
+  #mainNav .navbar-nav > li > a {
+    font-size: 20px;
+    font-family: "Roboto", sans-serif;}
+    #mainNav .navbar-nav > li > a.active {
+      color: rgb(69, 113, 180);
+      background-color: white; }
+      #mainNav .navbar-nav > li > a.active:hover {
+        background-color: white; }
+  #mainNav .navbar-nav > li > a,
+  #mainNav .navbar-nav > li > a:focus {
+    color: rgb(69, 113, 180); }
+    #mainNav .navbar-nav > li > a:hover,
+    #mainNav .navbar-nav > li > a:focus:hover {
+      color: rgb(69, 113, 180); }
+  @media (min-width: 992px) {
+    #mainNav {
+      border-color: white;
+      background-color: white; }
+      #mainNav .navbar-brand {
+        color: fade(white, 70%); }
+        #mainNav .navbar-brand:hover, #mainNav .navbar-brand:focus {
+          color: white; }
+      #mainNav .navbar-nav > li > a,
+      #mainNav .navbar-nav > li > a:focus {
+        color: rgb(69, 113, 180) }
+        #mainNav .navbar-nav > li > a:hover,
+        #mainNav .navbar-nav > li > a:focus:hover {
+          color: rgb(23, 50, 90); }
+      #mainNav.navbar-shrink {
+        border-color: rgb(69, 113, 180);
+        background-color: white; }
+        #mainNav.navbar-shrink .navbar-brand {
+          color: rgb(69, 113, 180); }
+          #mainNav.navbar-shrink .navbar-brand:hover, #mainNav.navbar-shrink .navbar-brand:focus {
+            color: rgb(69, 113, 180); }
+        #mainNav.navbar-shrink .navbar-nav > li > a,
+        #mainNav.navbar-shrink .navbar-nav > li > a:focus {
+          color: rgb(69, 113, 180); }
+          #mainNav.navbar-shrink .navbar-nav > li > a:hover,
+          #mainNav.navbar-shrink .navbar-nav > li > a:focus:hover {
+            color: rgb(69, 113, 180); } }
+
+header.masthead {
+  position: relative;
+  width: 100%;
+  padding-top: 150px;
+  padding-bottom: 150px;
+  color: white;
+  background: url("im1.png"); }
+  header.masthead .header-content {
+    max-width: 500px;
+    margin-bottom: 100px;
+    text-align: center; }
+  header.masthead .header-content h1 {
+    font-size: 30px; }
+  header.masthead .header-content a {
+    background-color: white;
+    color: rgb(69, 113, 180);
+    font-size: 20px;
+    font-family: "Roboto", sans-serif; }
+  header.masthead .device-container {
+    max-width: 325px;
+    margin-right: auto;
+    margin-left: auto; }
+  header.masthead .device-container .screen img {
+    border-radius: 3px; }
+  @media (min-width: 992px) {
+    header.masthead {
+      height: 100vh;
+      min-height: 775px;
+      padding-top: 0;
+      padding-bottom: 0; }
+    header.masthead .header-content {
+      margin-bottom: 0;
+      text-align: left; }
+    header.masthead .header-content h1 {
+      font-size: 50px; }
+    header.masthead .device-container {
+      max-width: 325px; } }            
+
+section.info {
+  font-family: "Roboto", sans-serif;
+  background: url("im2.png");
+  color: rgb(0, 0, 0);
+  width: 100%;
+  padding-top: 275px;
+  padding-bottom: 250px;
+  position: relative; }
+  section.info h2 {
+    font-size: 30px;
+    margin-top: 0; }
+  section.info .badges .badge-link {
+    display: block;
+    margin-bottom: 25px; }
+    section.info .badges .badge-link:last-child {
+      margin-bottom: 0; }
+    section.info .badges .badge-link img {
+      height: 60px; }
+    @media (min-width: 768px) {
+      section.info .badges .badge-link {
+        display: inline-block;
+        margin-bottom: 0; } }
+  @media (min-width: 768px) {
+    section.info h2 {
+      font-size: 70px; } }
+
+section.contacto {
+  font-family: "Roboto", sans-serif;
+  background: rgb(23, 50, 90); 
+  color: white;
+  width: 100%;
+  padding-top: 100px;
+  padding-bottom: 50px;
+  position: relative; }
+  section.contacto h3 {
+    padding-bottom: 30px;
+    font-size: 50px; }
+    section.contacto #map {
+      height: 300px;
+      width: 100%;
+     }
+  section.contacto .badges .badge-link {
+    display: block;
+    margin-bottom: 25px; }
+    section.contacto .badges .badge-link:last-child {
+      margin-bottom: 0; }
+    section.contacto .badges .badge-link img {
+      height: 60px; }
+    @media (min-width: 768px) {
+      section.contacto .badges .badge-link {
+        display: inline-block;
+        margin-bottom: 0; } }
+  @media (min-width: 768px) {
+    section.contacto h2 {
+      font-size: 70px; } }
